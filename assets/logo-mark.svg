@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Tiến Triều">
+  <defs>
+    <linearGradient id="tt-gold" gradientUnits="userSpaceOnUse" x1="0" y1="20" x2="0" y2="100">
+      <stop offset="0" stop-color="#fff3bf"/>
+      <stop offset=".45" stop-color="#f6c64e"/>
+      <stop offset="1" stop-color="#b8740f"/>
+    </linearGradient>
+    <linearGradient id="tt-ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff0b0"/>
+      <stop offset=".5" stop-color="#d99a22"/>
+      <stop offset="1" stop-color="#8f560a"/>
+    </linearGradient>
+    <radialGradient id="tt-red" cx=".4" cy=".32" r=".75">
+      <stop offset="0" stop-color="#e3262b"/>
+      <stop offset=".6" stop-color="#9e0d12"/>
+      <stop offset="1" stop-color="#4e0306"/>
+    </radialGradient>
+  </defs>
+
+  <!-- badge -->
+  <circle cx="60" cy="60" r="57" fill="url(#tt-ring)"/>
+  <circle cx="60" cy="60" r="51.5" fill="url(#tt-red)"/>
+  <circle cx="60" cy="60" r="47.5" fill="none" stroke="#f6c64e" stroke-opacity=".55" stroke-width="1"/>
+
+  <!-- crown -->
+  <path fill="url(#tt-gold)" d="M47 31 50.5 22.5 55.5 28 60 19.5 64.5 28 69.5 22.5 73 31z"/>
+  <rect x="47" y="31.5" width="26" height="3.2" rx="1.2" fill="url(#tt-gold)"/>
+
+  <!-- TT monogram: left T points left, right T points right (Phú Xuyên ⇄ Hà Nội) -->
+  <path fill="url(#tt-gold)" d="M18 46 27 38.5V41.5H57.5V50.5H45.5L44.2 86H35.8L34.5 50.5H27V53.5z"/>
+  <path fill="url(#tt-gold)" d="M102 46 93 38.5V41.5H62.5V50.5H74.5L75.8 86H84.2L85.5 50.5H93V53.5z"/>
+
+  <!-- road swoosh -->
+  <path fill="url(#tt-gold)" d="M26 93C42 85 78 85 94 93 78 89.5 42 89.5 26 93z"/>
+  <path fill="none" stroke="#fff3bf" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="4 4" d="M44 98.5C54 96 66 96 76 98.5"/>
+</svg>

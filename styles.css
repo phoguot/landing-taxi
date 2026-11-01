@@ -335,6 +335,13 @@ h1, h2, h3, h4 {
   .brand strong { font-size: var(--text-md); }
   .brand small { display: none; }
   .header-call { min-height: 2.6rem; padding-inline: var(--space-sm); font-size: var(--text-sm); white-space: nowrap; }
+}
+
+.header-call__short { display: none; }
+/* very narrow phones: the full number no longer fits next to the brand */
+@media (max-width: 22.49rem) {
+  .header-call__number { display: none; }
+  .header-call__short { display: inline; }
   .site-footer { grid-template-columns: minmax(0, 1fr); }
 }
 
